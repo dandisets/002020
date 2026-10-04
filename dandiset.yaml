@@ -33,7 +33,8 @@ assetsSummary:
   - ProcessingModule
 citation: Nakamuta, Asahi; Akita, Dai; Zhang, He; Kawahara, Yuta; Takahashi, Hirokazu;
   Teramae, Jun-nosuke (2026) High-density MEA recordings of spontaneous activity in
-  developing rat cortical cultures (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002020/draft
+  developing rat cortical cultures (Version 0.261004.1410) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.002020/0.261004.1410
 contributor:
 - affiliation:
   - name: Kyoto University
@@ -111,6 +112,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-10-02T04:45:47.500074+00:00'
+datePublished: '2026-10-04T14:10:36.463557+00:00'
 description: "This Dandiset contains spontaneous neural activity data from seven dissociated
   rat cortical cultures recorded during network development using high-density multielectrode
   arrays (HD-MEAs; MaxOne, MaxWell Biosystems). Cultures were prepared from embryonic
@@ -121,8 +123,9 @@ description: "This Dandiset contains spontaneous neural activity data from seven
   population activity emerges during neuronal network development. Analyses examined
   power-law scaling of principal component variance spectra, the spatial organization
   of principal components, and the emergence of neuronal avalanches."
+doi: 10.48324/dandi.002020/0.261004.1410
 ethicsApproval: []
-id: DANDI:002020/draft
+id: DANDI:002020/0.261004.1410
 identifier: DANDI:002020
 keywords:
 - neuronal culture
@@ -132,9 +135,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002020/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002020/0.261004.1410/assets.yaml
 name: High-density MEA recordings of spontaneous activity in developing rat cortical
   cultures
+publishedBy:
+  endDate: '2026-10-04T14:10:36.463557+00:00'
+  id: urn:uuid:4c63a31b-8e73-46d7-aff5-4a95def3dc13
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-04T14:10:36.463557+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5e1ca93c-1761-4d23-809b-7aa54a088f56
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1101/2025.01.14.630383
   name: Self-organization of high-dimensional geometry of neural activity in culture
@@ -143,9 +158,10 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.14.630383v2
+releaseNotes: New release
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002020/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002020/0.261004.1410
+version: 0.261004.1410
 wasGeneratedBy: []
